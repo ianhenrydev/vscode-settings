@@ -1,0 +1,16 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+	{
+		"key": "ctrl+shift+alt+cmd+f5",
+		"command": "editor.action.sortLinesAscending"
+	},
+	{
+		"key": "ctrl+shift+alt+cmd+f1",
+		"command": "editor.action.revealDefinition",
+		"when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+	},
+	{
+		"key": "ctrl+shift+alt+cmd+f6",
+		"command": "workbench.action.findInFiles"
+	},
+]
